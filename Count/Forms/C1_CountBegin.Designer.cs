@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.pnlMenu = new System.Windows.Forms.Panel();
-            this.ucTemplate1 = new Count.UCTemplate();
-            this.btnSelectAccount = new System.Windows.Forms.Button();
-            this.btnCreateAccount = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.btnCreateAccount = new System.Windows.Forms.Button();
+            this.btnSelectAccount = new System.Windows.Forms.Button();
+            this.ucTemplate1 = new Count.UCTemplate();
             this.pnlMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,23 +47,14 @@
             this.pnlMenu.Size = new System.Drawing.Size(248, 310);
             this.pnlMenu.TabIndex = 1;
             // 
-            // ucTemplate1
+            // btnExit
             // 
-            this.ucTemplate1.AutoSize = true;
-            this.ucTemplate1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucTemplate1.Location = new System.Drawing.Point(0, 0);
-            this.ucTemplate1.Name = "ucTemplate1";
-            this.ucTemplate1.Size = new System.Drawing.Size(1384, 711);
-            this.ucTemplate1.TabIndex = 0;
-            // 
-            // btnSelectAccount
-            // 
-            this.btnSelectAccount.Location = new System.Drawing.Point(50, 78);
-            this.btnSelectAccount.Name = "btnSelectAccount";
-            this.btnSelectAccount.Size = new System.Drawing.Size(144, 23);
-            this.btnSelectAccount.TabIndex = 0;
-            this.btnSelectAccount.Text = "Select Account";
-            this.btnSelectAccount.UseVisualStyleBackColor = true;
+            this.btnExit.Location = new System.Drawing.Point(50, 208);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(144, 23);
+            this.btnExit.TabIndex = 2;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
             // 
             // btnCreateAccount
             // 
@@ -75,14 +66,23 @@
             this.btnCreateAccount.UseVisualStyleBackColor = true;
             this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
             // 
-            // btnExit
+            // btnSelectAccount
             // 
-            this.btnExit.Location = new System.Drawing.Point(50, 208);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(144, 23);
-            this.btnExit.TabIndex = 2;
-            this.btnExit.Text = "Exit";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnSelectAccount.Location = new System.Drawing.Point(50, 78);
+            this.btnSelectAccount.Name = "btnSelectAccount";
+            this.btnSelectAccount.Size = new System.Drawing.Size(144, 23);
+            this.btnSelectAccount.TabIndex = 0;
+            this.btnSelectAccount.Text = "Select Account";
+            this.btnSelectAccount.UseVisualStyleBackColor = true;
+            // 
+            // ucTemplate1
+            // 
+            this.ucTemplate1.AutoSize = true;
+            this.ucTemplate1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucTemplate1.Location = new System.Drawing.Point(0, 0);
+            this.ucTemplate1.Name = "ucTemplate1";
+            this.ucTemplate1.Size = new System.Drawing.Size(1384, 711);
+            this.ucTemplate1.TabIndex = 0;
             // 
             // C1_CountBegin
             // 
@@ -93,6 +93,7 @@
             this.Controls.Add(this.ucTemplate1);
             this.Name = "C1_CountBegin";
             this.Text = "C1_CountBegin";
+            this.Load += new System.EventHandler(this.C1_CountBegin_Load);
             this.pnlMenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

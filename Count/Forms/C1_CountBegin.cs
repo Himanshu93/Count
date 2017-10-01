@@ -23,5 +23,10 @@ namespace Count.Forms
             createCompany.Show();
             this.Hide();
         }
+
+        private void C1_CountBegin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

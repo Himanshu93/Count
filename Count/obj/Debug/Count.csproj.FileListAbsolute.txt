@@ -8,3 +8,4 @@ E:\hcSoft\Count\Count\obj\Debug\Count.csproj.GenerateResource.Cache
 E:\hcSoft\Count\Count\obj\Debug\Count.exe
 E:\hcSoft\Count\Count\obj\Debug\Count.pdb
 E:\hcSoft\Count\Count\obj\Debug\Count.Forms.C1_CountBegin.resources
+E:\hcSoft\Count\Count\obj\Debug\Count.Forms.C1_2_CreateCompany.resources

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\C1_1_SelectCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\C1_1_SelectCompany.Designer.cs">
+      <DependentUpon>C1_1_SelectCompany.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\C1_2_CreateCompany.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="UserControl\UCTemplate.Designer.cs">
       <DependentUpon>UCTemplate.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\C1_1_SelectCompany.resx">
+      <DependentUpon>C1_1_SelectCompany.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\C1_2_CreateCompany.resx">
       <DependentUpon>C1_2_CreateCompany.cs</DependentUpon>
     </EmbeddedResource>

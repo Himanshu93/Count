@@ -16,5 +16,15 @@ namespace Count.Forms
         {
             InitializeComponent();
         }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void pnlCreateCompany_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
