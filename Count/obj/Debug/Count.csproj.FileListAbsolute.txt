@@ -1,0 +1,10 @@
+E:\hcSoft\Count\Count\bin\Debug\Count.exe.config
+E:\hcSoft\Count\Count\bin\Debug\Count.exe
+E:\hcSoft\Count\Count\bin\Debug\Count.pdb
+E:\hcSoft\Count\Count\obj\Debug\Count.csprojResolveAssemblyReference.cache
+E:\hcSoft\Count\Count\obj\Debug\Count.Properties.Resources.resources
+E:\hcSoft\Count\Count\obj\Debug\Count.UCTemplate.resources
+E:\hcSoft\Count\Count\obj\Debug\Count.csproj.GenerateResource.Cache
+E:\hcSoft\Count\Count\obj\Debug\Count.exe
+E:\hcSoft\Count\Count\obj\Debug\Count.pdb
+E:\hcSoft\Count\Count\obj\Debug\Count.Forms.C1_CountBegin.resources
